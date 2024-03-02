@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend BootStrapProject</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 
+    fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">Web Development Student</a>
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#aboutme" class="nav-link">About myself</a>
+          </li>
+          <li class="nav-item">
+            <a href="#techs" class="nav-link">Known Technologies</a>
+          </li>
+          <li class="nav-item">
+            <a href="#learning" class="nav-link">Currently Learning</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Showcase -->
+  <section id="intro" class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div class="px-3">
+          <h1>This is <span class="text-warning">Óscar!</span></h1>
+          <p class="lead my-4">
+            I'm a Web Development student in CIFP Francesc de Borjamoll,
+            preparing for my first dev role. I totally switched my career when I discovered
+            this exciting world just a few months ago.
+          </p>
+          <button href="#contact" class="btn btn-primary btn-lg">Contact me</button>
+        </div>
+        <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.jpg" alt="cartoon image of programmer">
+      </div>
+    </div>
+  </section>
+
+  <!-- Updates -->
+  <section class="bg-primary text-light p-5">
+    <div class="container">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <h3 class="mb-3 mb-md-0">Get my updates</h3>
+
+        <div class="input-group news-input">
+          <input type="text" class="form-control" placeholder="Enter Email" />
+          <button class="btn btn-dark btn-lg"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="techs" class="p-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="img/techs.jpeg" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md p-5">
+          <h2>Known Technologies</h2>
+          <p class="lead">
+            Languages, frameworks and tools that I know
+          </p>
+          <p>
+            Right now, most of things I've learned are about Java and OOP,
+            but I also spent some time learning XML, HTML, CSS and JavaScript. Recently I
+            discovered Bootstrap to start improving my front-end skills.
+            I also used SQL, with MariaDB Database, to understand how basic querys, procedures and triggers work.
+            For the version control and collaborations I've used Git and Github.
+            About deployment I've studied the basics of Docker.
+          </p>
+          <a href="#" class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i> Read More
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Icons  -->
+
+  <section class="p-5">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-2">
+          <a href="https://www.java.com/" target="_blank"><img
+              src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java"
+              height="45" /></a>
+        </div>
+        <div class="col-sm-2">
+          <a href="https://www.javascript.com/" target="_blank"><img
+              src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript"
+              height="45" /></a>
+        </div>
+        <div class="col-sm-2">
+          <a href="https://www.python.org/" target="_blank"><img
+              src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="45" /></a>
+        </div>
+        <div class="col-sm-2">
+          <a href="https://www.docker.com/" target="_blank"><img
+              src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker"
+              height="45" /></a>
+        </div>
+        <div class="col-sm-2">
+          <a href="https://www.mysql.com/" target="_blank"><img
+              src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL"
+              height="45" /></a>
+        </div>
+        <div class="col-sm-2">
+          <a href="https://www.w3schools.com/css/" target="_blank"><img
+              src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3"
+              height="45" /></a>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-sm-2">
+          <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img
+              src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5"
+              height="45" /></a>
+        </div>
+        <div class="col-sm-2">
+          <a href="https://github.com/" target="_blank"><img
+              src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="45" /></a>
+        </div>
+        <div class="col-sm-2">
+          <a href="https://www.gnu.org/software/bash/" target="_blank"><img
+              src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="45" /></a>
+        </div>
+        <div class="col-sm-2">
+          <a href="https://www.linux.org/" target="_blank"><img
+              src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="45" /></a>
+        </div>
+        <div class="col-sm-2">
+          <a href="https://mariadb.org/" target="_blank"><img
+              src="https://profilinator.rishav.dev/skills-assets/mariadb.png" alt="Maria DB" height="45" /></a>
+        </div>
+        <div class="col-sm-2">
+          <a href="https://docs.microsoft.com/en-us/powershell/" target="_blank"><img
+              src="https://profilinator.rishav.dev/skills-assets/powershell.png" alt="PowerShell" height="45" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning -->
+
+  <section id="learning" class="p-5 bg-dark text-light">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <h2>Learning</h2>
+          <p class="lead">
+            Upcoming knowledge
+          </p>
+          <p>
+            Everyday I rediscover faster, better and more powerfull ways of program solving, with the techs I already
+            know.
+            Even so, I'm eager to be able to work with proffesionals of the sector and be capable of creating a whole
+            workflow. That is why
+            I'm doing CS50 courses and also learning about C# and .NET framework, more specifically ASP.NET. I believe
+            with those I will be
+            closer to be the Full-stack programmer I want to be.
+          </p>
+          <a href="#" class="btn btn-light mt-3 w-50 d-none d-sm-block">
+            <i class="bi bi-chevron-right "></i> Read More
+          </a>
+        </div>
+        <div class="col-md">
+          <img src="img/learning.jpeg" class="img-fluid w-50 d-none d-sm-block" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About me -->
+
+  <section id="aboutme" class="p-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About me</h2>
+      <div class="accordion accordion-flush" id="aboutme">
+        <!-- Personality -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Personality
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#aboutme">
+            <div class="accordion-body">What I mostly like about programming is that it supports my idea of trying to
+              find solutions for the problems if possible. I always considered
+              myself practical and with an analitic type of mind. I enjoy trying to find new areas to improve and more
+              efficient ways to do it.
+            </div>
+          </div>
+        </div>
+        <!-- Languages -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Languages
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#aboutme">
+            <div class="accordion-body">I was born in Majorca, so I speak Spanish and Catalan natively. Due to my
+              previous job and hobbies,
+              I've traveled several times a year since I was a kid. I went outside the country and even had to teach in
+              english.
+              Also the content I consume most of the time is in english, from movies to videogames or tutorials, since I
+              think that allows me to get access to much more information.
+              I've also been speaking it with other people for many years.
+              That is why I consider myself pretty competent in it, either writing or speaking it, even though my only
+              certificate is the one I got by passing High School.
+            </div>
+          </div>
+        </div>
+        <!-- Hobbies -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Hobbies
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#aboutme">
+            <div class="accordion-body">Since I was a kid, I've liked sports. I've been a competitive sailor from 7 to
+              20 years. I also loved and I still do love doing other sports, like martial arts
+              , padel, calisthenics, bodybuilding and skiing. I also used to play videogames, but recently discovered
+              that programming is my new favourite one! I also like reading books
+              since a was little, sometimes fantasy, others self-development and courses.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="p-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact info</h2>
+      <ul class="list-group list-group-flush lead">
+        <li class="list-group-item">
+          <span class="fw-bold">Location: </span>s'Arenal-Llucmajor (Mallorca-Spain)
+        </li>
+        <li class="list-group-item">
+          <span class="fw-bold">Phone: </span>+34 608967695
+        </li>
+        <li class="list-group-item">
+          <span class="fw-bold">Email: </span>oscarlmdev@gmail.com
+        </li>
+        <li class="list-group-item">
+          <a target="_blank" href="https://www.linkedin.com/in/oscarlacoma">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+            </svg>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a target="_blank" href="https://github.com/oscarlmdev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github text-dark" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; 2024 BootStrap Portfolio, credits to Traversy Media</p>
+
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" 
+    crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
